@@ -1,4 +1,4 @@
-# 01. Introduction
+# 01. Linux Temellerine Giriş
 
 > 🎯 **Bu Modülün Amacı:** Linux'in temel kavramlarını ve Windows/macOS ile farkı anlamak. Linux Mint dağıtımını (Cinnamon) sanal makine ortamında kurmak, sistem güncellemelerini gerçekleştirmek ve en yaygın sanal makine hatalarını nasıl araştırıp çözeceğinizi öğrenmek.
 
@@ -211,8 +211,6 @@ ISO dosyası, bir işletim sistemi kurulum medyasının (CD/DVD'nin) dijital kop
 
    > [!NOTE]
    > **Disk alanı:** 20 GB başlangıç için yeterlidir. Dinamik ayırma seçeneği, sanal makineyi ilk kullandığınızda diskte hemen 20 GB alan kaplamasın, kullandıkça artmasına izin verir.
-   > [!NOTE]
-   > **Disk alanı:** 20 GB başlangıç için yeterlidir. Dinamik ayırma seçeneği, sanal makineyi ilk kullandığınızda diskte hemen 20 GB alan kaplamasın, kullandıkça artmasına izin verir.
 
 7. **Sanal Makine Hazır:**
    > **📷 Görsel İpucu:** [VirtualBox ana penceresinde artık "Linux Mint" adında bir sanal makine kartının göründüğü ekran — kart üzerinde sanal makinenin adının, işletim sistemi ikonu (pencere ikonu) ve sağ tarafta yeşil "Başlat" butonunun göründüğü ekran görüntüsü]
@@ -405,7 +403,7 @@ Modern bilgisayar işlemcileri (Intel ve AMD), sanal makinelerin çalışması i
 > 5. **Başarılıysa, çözümün neden işe yaradığını not alın** — böylece bir dahaki sefere hatırlarsınız.
 
 > [!IMPORTANT]
-> **Not alma alışkanlığı:** Çözdüğünüz her sorunu bir not defterine (bilgisayarınızda veya fiziksel bir deftere) kaydedin. "X tarihində Y hatası ile karşılaştım, çözüm: Z" şeklinde. Bir süre sonra bu notlar size büyük kolaylık sağlayacak ve benzer hatalarla hızlıca başa çıkmanızı sağlayacak.
+> **Not alma alışkanlığı:** Çözdüğünüz her sorunu bir not defterine (bilgisayarınızda veya fiziksel bir deftere) kaydedin. "X tarihinde Y hatası ile karşılaştım, çözüm: Z" şeklinde. Bir süre sonra bu notlar size büyük kolaylık sağlayacak ve benzer hatalarla hızlıca başa çıkmanızı sağlayacak.
 
 ---
 
@@ -573,4 +571,4 @@ Bu modülde edindiğiniz bilgileri pekiştirmek için aşağıdaki alıştırmal
 | **Linux Mint Kurulumu:** Başlangıç ekranı, dil seçimi, klavye ayarı, disk bölümleme, kullanıcı yaratma, güncellemeler, masaüstü ortamı |
 | **Update Manager:** Güncellemeleri indirip yüklemek için kullanılan grafik arayüz aracı; ilk sisteme ilk güncellemeyi yapmanızı sağlar |
 | **Troubleshooting:** Hata mesajını okuyun, Google'da arayın, birden fazla kaynaktan bilgi alın, çözümü not edin |
-| **Önemli Komutlar:** `man --help`, `sudo apt update`, `sudo apt upgrade` |
+| **Önemli Araçlar:** Update Manager, VirtualBox GUI, Sistem Ayarları |
