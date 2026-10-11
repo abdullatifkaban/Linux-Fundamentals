@@ -134,7 +134,7 @@ Sisteminizde bu bağımsız çalışmayı tamamlayın:
 
 ## Daha Fazlasını Öğrenmek
 
-- Timeshift resmi: [https://github.com/laurent2014/timeshift](https://github.com/laurent2014/timeshift)
+- Timeshift resmi: [https://github.com/linuxmint/timeshift](https://github.com/linuxmint/timeshift)
 - Yedekleme stratejileri: [https://wiki.archlinux.org/title/Backup](https://wiki.archlinux.org/title/Backup)
 - `man timeshift`
 

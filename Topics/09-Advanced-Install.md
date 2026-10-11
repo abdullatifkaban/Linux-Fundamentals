@@ -97,8 +97,7 @@ Kendi Linux sisteminizde şu adımları uygulayın:
 ## Daha Fazlasını Öğrenmek
 
 - GPT partitioning standards: [https://www.efi-spec.org/](https://uefi.org/specifications/)
-- Timeshift: [https://github.com/laurent2014/timeshift](https://github.com/laurent2014/timeshift)
-- Multi-boot setups: [https://wiki.archlinux.org/title/Multiboot](https://wiki.archlinux.org/title/Multiboot)
+- Timeshift: [https://github.com/linuxmint/timeshift](https://github.com/linuxmint/timeshift)
 
 ## Kısa Özet
 

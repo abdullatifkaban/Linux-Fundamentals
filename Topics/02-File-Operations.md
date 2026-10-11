@@ -9,7 +9,7 @@ Bu derste, Linux'ta dosya ve dizinlerle çalışmanın temel komutlarını öğr
 Veri biliminde, veri dosyalarını taşımak, sonuçları farklı dizinlere kopyalamak, log dosyalarını incelemek ve betikleri düzenli olarak çalıştırmak için sürekli dosya işlemi yapmanız gerekir. Bu komutlar, ilerleyen haftalarda paket kurulumu, sistem izleme ve veri araçlarının kurulumu gibi görevlerin temelini oluşturur. Bu komutları ezberlemeye çalışmak yerine, her birinin ne değiştirdiğini gözlemleyerek öğrenmeniz çok daha kalıcı olacaktır.
 
 > [!IMPORTANT]
-> `rm` komutu silinen dosyaları geri getirmez (varsayılan olarak çöp kutusu yoktur). Kritik dosyaları silmeden önce her zaman `ls` ile hedefi doğrulayın.
+> `rm` komutu silinen dosyaları **geri getirmez** (varsayılan olarak çöp kutusu yoktur). Kritik dosyaları silmeden önce her zaman `ls` ile hedefi doğrulayın.
 
 ## Ön Bilgi
 

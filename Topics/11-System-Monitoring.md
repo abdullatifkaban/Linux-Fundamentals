@@ -129,8 +129,6 @@ Kendi sisteminizde bu bağımsız çalışmayı tamamlayın:
 
 ## Daha Fazlasını Öğrenmek
 
-- `htop` vs `top`: [https://help.ubuntu.com/community/Ubuntu/Goals](https://help.ubuntu.com/community/Ubuntu/Goals)
-- `strace` vs `ltrace`: [https://www.man7.org/linux/man-pages/man1/strace.1.html](https://www.man7.org/linux/man-pages/man1/strace.1.html)
 - `journalctl`: `man journalctl`
 
 ## Kısa Özet

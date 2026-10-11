@@ -155,4 +155,4 @@ Bu derste Linux işletim sisteminin temel kavramlarını — çekirdek, kabuk ve
 
 ---
 
-← [Ders bulunmuyor](/) | [Temel Komutlar ve Dosya Sistemi →](02-File-Operations.md)
+← [Ana Sayfa](/) | [Temel Komutlar ve Dosya Sistemi →](02-File-Operations.md)

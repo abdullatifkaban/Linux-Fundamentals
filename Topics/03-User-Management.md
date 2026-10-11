@@ -41,9 +41,9 @@ Bir dosyanın izinleri `rw-r--r--` şeklinde gösterilir: sahip (`rw-`), grup (`
 ```mermaid
 flowchart TD
     A["Dosya: veri.txt"] --> B["chmod 754 veri.txt"]
-    B --> C{"Sahip: rwx"}
-    B --> D{"Grup: r-x"}
-    B --> E{"Diğerleri: r--"}
+    B --> C["Sahip: rwx"]
+    B --> D["Grup: r-x"]
+    B --> E["Diğerleri: r--"]
 ```
 
 ## 🔍 Birlikte Keşfedelim
@@ -138,7 +138,7 @@ Kendi Linux sisteminizde şu bağımsız çalışmayı tamamlayın:
 
 ## Daha Fazlasını Öğrenmek
 
-- Linux Dosya İzinleri (Linux Foundation): [https://www-linuxfoundation-org.translate.goog/blog/blog/classic-sysadmin-understanding-linux-file-permissions?_x_tr_sl=en&_x_tr_tl=tr&_x_tr_hl=tr&_x_tr_pto=tc](https://www-linuxfoundation-org.translate.goog/blog/blog/classic-sysadmin-understanding-linux-file-permissions?_x_tr_sl=en&_x_tr_tl=tr&_x_tr_hl=tr&_x_tr_pto=tc)
+- Linux Dosya İzinleri: [Linux Foundation](https://www-linuxfoundation-org.translate.goog/blog/blog/classic-sysadmin-understanding-linux-file-permissions?_x_tr_sl=en&_x_tr_tl=tr&_x_tr_hl=tr&_x_tr_pto=tc)
 - `chmod` yardım sayfası: `man chmod` (yerel yardım; terminalde `man chmod` ile erişilir)
 
 ## Kısa Özet
