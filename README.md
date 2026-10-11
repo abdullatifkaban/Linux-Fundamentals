@@ -1,10 +1,10 @@
 # 🐧 Linux Temelleri
 
-Veri bilimi ve analitiği bölümü 3. sınıf öğrencileri için hazırlanan bu kurs, Linux işletim sisteminin temel kavramlarından başlayarak ileri kurulum, sistem bakımı ve veri biliminde kullanılabilecek araçların kurulumu kadar geniş bir yelpazeyi kapsar.
+Bu kurs, Linux işletim sisteminin temel kavramlarından başlayarak ileri kurulum, sistem bakımı ve modern araçların kurulumu kadar geniş bir yelpazeyi kapsar. Temel komutlardan başlayıp veri biliminde kullanılabilecek araçlara kadar her aşama, adım adım pratik uygulamalarla pekiştirilmiştir.
 
 ## 👥 Hedef Kitle
 
-Daha önce Linux tecrübesi olmayan veri bilimi ve analitiği 3. sınıf lisans öğrencileri.
+Daha önce Linux deneyimi olmayan genel kullanıcılar ile sistem yönetimi öğrenmek isteyen herkes bu kursun hedef kitlesidir. Bu kurs, Linux işletim sisteminin temel kavramlarından başlayarak ileri kurulum, sistem bakımı ve modern araçların kurulumu gibi geniş bir yelpazeyi kapsar.
 
 ## 📚 İçerik
 
