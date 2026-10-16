@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-label="Kullanıcı adı, makine adı ve dizini gösteren bir kabuk istemini içeren terminal penceresi.">
+  <rect width="1280" height="720" fill="#F4F7FB"/>
+
+  <!-- terminal penceresi -->
+  <rect x="180" y="150" width="920" height="420" rx="16" fill="#1E2229" stroke="#2E3440" stroke-width="3"/>
+
+  <!-- baslik cubugu -->
+  <rect x="180" y="150" width="920" height="44" rx="16" fill="#2A2F38"/>
+  <rect x="180" y="176" width="920" height="18" fill="#2A2F38"/>
+  <circle cx="208" cy="172" r="7" fill="#F5B7B1"/>
+  <circle cx="232" cy="172" r="7" fill="#F9E79F"/>
+  <circle cx="256" cy="172" r="7" fill="#A9DFBF"/>
+
+  <!-- kabuk istemi -->
+  <text x="220" y="330" font-family="'DejaVu Sans Mono',Consolas,monospace" font-size="26" fill="#E5E9F0"><tspan fill="#A9DFBF">kullanici</tspan><tspan fill="#7FB3D5">@bilgisayar</tspan><tspan fill="#E5E9F0">:~$ </tspan></text>
+  <rect x="598" y="306" width="14" height="32" fill="#E5E9F0"/>
+</svg>

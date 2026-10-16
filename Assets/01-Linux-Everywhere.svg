@@ -1,4 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Gunluk hayattaki modem, televizyon, telefon ve oyun konsolunun ortak bir Linux temelini paylastigini gosteren duz vektor illustrasyon.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Günlük hayattaki modem, televizyon, telefon ve oyun konsolunun üzerinde küçük penguenler ve ortak bir Linux temelini gösteren düz vektör illüstrasyon.">
+  <defs>
+    <g id="penguen">
+      <ellipse cx="-9" cy="-3" rx="7" ry="4" fill="#F2A33C"/>
+      <ellipse cx="9" cy="-3" rx="7" ry="4" fill="#F2A33C"/>
+      <ellipse cx="0" cy="-30" rx="20" ry="28" fill="#2E3440"/>
+      <ellipse cx="0" cy="-24" rx="12" ry="20" fill="#F8FAFC"/>
+      <polygon points="-6,-36 6,-36 0,-28" fill="#F2A33C"/>
+      <circle cx="-6" cy="-44" r="3" fill="#FFFFFF"/>
+      <circle cx="6" cy="-44" r="3" fill="#FFFFFF"/>
+    </g>
+  </defs>
+
   <rect width="1600" height="900" fill="#F4F7FB"/>
 
   <!-- ortak temel cizgisi -->
@@ -9,7 +21,7 @@
     <path d="M200 560 L200 250"/>
     <path d="M600 470 L600 250"/>
     <path d="M1000 500 L1000 250"/>
-    <path d="M1365 590 L1365 250"/>
+    <path d="M1365 586 L1365 250"/>
 
     <path d="M200 340 L240 300 L240 250"/>
     <path d="M600 360 L560 320 L560 250"/>
@@ -19,10 +31,10 @@
 
   <!-- devre dugum noktalari -->
   <g fill="#A9C4DE">
-    <circle cx="200" cy="400" r="5"/>
-    <circle cx="600" cy="390" r="5"/>
-    <circle cx="1000" cy="400" r="5"/>
-    <circle cx="1365" cy="430" r="5"/>
+    <circle cx="240" cy="300" r="4"/>
+    <circle cx="560" cy="320" r="4"/>
+    <circle cx="1040" cy="290" r="4"/>
+    <circle cx="1325" cy="340" r="4"/>
   </g>
 
   <!-- ortak temel uzerindeki baglanti noktalari -->
@@ -77,4 +89,10 @@
     <circle cx="1354" cy="623" r="11" fill="#7FB3D5"/>
     <rect x="1382" y="619" width="50" height="8" rx="4" fill="#DCE6F2"/>
   </g>
+
+  <!-- cihazlarin uzerindeki kucuk penguenler -->
+  <use href="#penguen" x="200" y="560"/>
+  <use href="#penguen" x="600" y="470"/>
+  <use href="#penguen" x="1000" y="500"/>
+  <use href="#penguen" x="1365" y="586"/>
 </svg>

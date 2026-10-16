@@ -1,56 +1,70 @@
 # 🐧 Linux Temelleri
 
-Bu kurs, Linux işletim sisteminin temel kavramlarından başlayarak ileri kurulum, sistem bakımı ve modern araçların kurulumu kadar geniş bir yelpazeyi kapsar. Temel komutlardan başlayıp veri biliminde kullanılabilecek araçlara kadar her aşama, adım adım pratik uygulamalarla pekiştirilmiştir.
+Bu kurs, Linux'a hiç dokunmamış bir kişiyi sıfırdan başlatıp günlük bilgisayar
+işlerini Linux üzerinde rahatça yürütecek düzeye getirmeyi amaçlar. Sanal makine
+üzerine Linux Mint kurulumuyla başlar; komut satırı, dosya sistemi, kullanıcı ve
+izin yönetimi, paket kurulumu, süreç ve servis yönetimi, ağ temelleri, kabuk
+betikleme ve sorun giderme konularını uygulama ağırlıklı biçimde işler. 14 bölüm
+boyunca her konu bir öncekinin üzerine inşa edilir.
 
 ## 👥 Hedef Kitle
 
-Daha önce Linux deneyimi olmayan genel kullanıcılar ile sistem yönetimi öğrenmek isteyen herkes bu kursun hedef kitlesidir. Bu kurs, Linux işletim sisteminin temel kavramlarından başlayarak ileri kurulum, sistem bakımı ve modern araçların kurulumu gibi geniş bir yelpazeyi kapsar.
+Bu kurs, üniversite 1. sınıf düzeyinde tasarlanmıştır. Aynı zamanda Linux'a yeni
+başlayan, konuyu merak eden ve kendi başına öğrenmek isteyen herkese açıktır.
+Herhangi bir işletim sistemi veya terminal bilgisi ön koşul değildir; kurs
+sıfırdan başlar.
 
 ## 📚 İçerik
 
-### 🏁 Temel Kavramlar ve Kurulum
+### 🔰 Temeller ve Masaüstü
 
-- [Linux Kurulumu ve Temel Kavramlar](Topics/01-Linux-Basics.md)  
-*(Kurulum, çekirdek, kabuk, dosya sistemi hiyerarşisi)*
-- [Temel Komutlar ve Dosya Sistemi](Topics/02-File-Operations.md)  
-*(ls, cp, mv, rm, cat, dizin gezintisi)*
-- [Kullanıcı Yönetimi ve İzinler](Topics/03-User-Management.md)  
-*(chmod, chown, kullanıcı/grup kavramları)*
+- [Linux'a Giriş ve Sanal Makine Kurulumu](Topics/01-Getting-Started.md)  
+*(Linux kavramlarını tanır, sanal makine kurar ve Linux Mint'i çalıştırır)*
+- [Masaüstü ile Tanışma ve Terminalin İlk Adımları](Topics/02-Desktop-And-Terminal.md)  
+*(Masaüstü ortamını keşfeder ve ilk terminal komutlarını çalıştırır)*
 
-### 🖥️ Sistem Kullanımı ve Ortamlar
+### 📁 Dosyalar ve Komut Satırı
 
-- [Farklı Dağıtımlar](Topics/04-Distributions.md)  
-*(Ubuntu, Fedora, Debian karşılaştırması)*
-- [Masaüstü Ortamları](Topics/05-Desktop-Environments.md)  
-*(GNOME, KDE, XFCE)*
-- [Paket Yönetimi](Topics/06-Package-Management.md)  
-*(apt, dnf, snap)*
+- [Dosya Sistemi, Dizin Yapısı ve Dosya İşlemleri](Topics/03-File-System-Basics.md)  
+*(Dizin yapısını kavrar, dosyaları oluşturup taşıyıp siler)*
+- [Dosya İçeriği, Metin Düzenleme, Boru ve Kılavuz](Topics/04-Text-And-Pipes.md)  
+*(Dosya içeriğini inceler, düzenler ve komutları boruyla birleştirir)*
 
-### 📡 Ağ ve Disk
+### 🔐 Kullanıcılar, İzinler ve Paketler
 
-- [Ağ Temelleri](Topics/07-Network-Basics.md)  
-*(IP, ağ yapılandırması)*
-- [Disk Bölümleme ve Dosya Sistemleri](Topics/08-Disk-Partitioning.md)  
-*(ext4, btrfs, bölümleme)*
+- [Sahiplik, İzinler, Kullanıcı ve Grup Yönetimi](Topics/05-Permissions-And-Users.md)  
+*(Dosya izinlerini ve kullanıcı-grup erişimini yönetir)*
+- [Dağıtım Aileleri ve Masaüstü Ortamları](Topics/06-Distributions-And-Desktops.md)  
+*(Dağıtımları ve masaüstü ortamlarını karşılaştırıp seçim yapar)*
+- [Paket Yönetimi](Topics/07-Package-Management.md)  
+*(Üç dağıtım ailesinde yazılım kurar, arar ve kaldırır)*
 
-### ⚙️ İleri Konular
+### ⚙️ Sistem ve Ağ Yönetimi
 
-- [İleri Kurulum ve Çoklu Önyükleme](Topics/09-Advanced-Install.md)  
-*(Çoklu önyükleme)*
-- [Shell Betikleri ve Otomasyon](Topics/10-Shell-Scripting.md)  
-*(Bash betikleri)*
-- [Sistem İzleme ve Hata Ayıklama](Topics/11-System-Monitoring.md)  
-*(top, dmesg, loglar)*
+- [Süreç ve Servis Yönetimi](Topics/08-Process-And-Services.md)  
+*(Çalışan süreçleri ve servisleri izleyip yönetir)*
+- [Disk, Donanım ve Sistem İzleme](Topics/09-Disk-And-Monitoring.md)  
+*(Sistem kaynaklarını ve donanımı inceler)*
+- [Ağ Temelleri](Topics/10-Networking-Basics.md)  
+*(Ağ durumunu inceler ve bağlantı sorunlarını teşhis eder)*
 
-### 🔬 Veri Bilimi ve Bakım
+### 🧩 Kabuk, Otomasyon ve Sorun Giderme
 
-- [Veri Bilimi Araçları Kurulumu](Topics/12-Data-Science-Tools.md)  
-*(Python, Jupyter)*
-- [Yedekleme ve Kurtarma](Topics/13-Backup-Timeshift.md)  
-*(Timeshift, yedekleme)*
-- [Bütünleşik Proje ve İnceleme](Topics/14-Integrated-Project.md)  
-*(Tüm konuların bir arada kullanımı)*
+- [Ortam Değişkenleri, PATH ve Kabuk Yapılandırması](Topics/11-Environment-And-Path.md)  
+*(Kabuk ortamını ve PATH davranışını yapılandırır)*
+- [Arşivleme ve Yedekleme](Topics/12-Archive-And-Backup.md)  
+*(Dizinleri arşivler ve yedekler)*
+- [Kabuk Betikleme Temelleri](Topics/13-Shell-Scripting.md)  
+*(Yinelenen işleri küçük betiklerle otomatikleştirir)*
+- [Sorun Giderme ve Günlük Kullanım](Topics/14-Troubleshooting-And-Usage.md)  
+*(Sorunları yöntemli biçimde çözer ve kursu gözden geçirir)*
+
+## 💻 Gereksinimler
+
+- Sanallaştırmayı destekleyen bir bilgisayar (yeterli RAM ve boş disk alanı)
+- VirtualBox (veya benzeri bir sanal makine yazılımı)
+- Linux Mint kurulum imajı (ISO)
+- İnternet bağlantısı
 
 ---
-
-> Son Güncellenme Tarihi: **`11 Ekim 2026`**
+> Son Güncellenme Tarihi: 16 Ekim 2026

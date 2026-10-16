@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-label="VirtualBox'ta yeni sanal makine ayar penceresini gösteren düz arayüz maketi.">
+  <rect width="1280" height="720" fill="#F4F7FB"/>
+
+  <!-- pencere govdesi -->
+  <rect x="140" y="80" width="1000" height="560" rx="16" fill="#FFFFFF" stroke="#CBD8E8" stroke-width="3"/>
+
+  <!-- baslik cubugu -->
+  <rect x="140" y="80" width="1000" height="52" rx="16" fill="#ECEFF4"/>
+  <rect x="140" y="116" width="1000" height="16" fill="#ECEFF4"/>
+  <line x1="140" y1="132" x2="1140" y2="132" stroke="#DCE6F2" stroke-width="2"/>
+  <text x="176" y="114" font-family="'DejaVu Sans','Segoe UI',Arial,sans-serif" font-size="20" font-weight="bold" fill="#333333">VirtualBox</text>
+  <circle cx="1076" cy="106" r="7" fill="#F5B7B1"/>
+  <circle cx="1104" cy="106" r="7" fill="#F9E79F"/>
+  <circle cx="1132" cy="106" r="7" fill="#A9DFBF"/>
+
+  <!-- satir 1 -->
+  <text x="190" y="212" font-family="'DejaVu Sans','Segoe UI',Arial,sans-serif" font-size="18" fill="#5A6B82">Name</text>
+  <rect x="520" y="180" width="560" height="50" rx="10" fill="#F8FAFC" stroke="#DCE6F2" stroke-width="2"/>
+  <text x="544" y="212" font-family="'DejaVu Sans','Segoe UI',Arial,sans-serif" font-size="18" fill="#333333">Linux Mint</text>
+
+  <!-- satir 2 -->
+  <text x="190" y="280" font-family="'DejaVu Sans','Segoe UI',Arial,sans-serif" font-size="18" fill="#5A6B82">Type</text>
+  <rect x="520" y="248" width="560" height="50" rx="10" fill="#F8FAFC" stroke="#DCE6F2" stroke-width="2"/>
+  <text x="544" y="280" font-family="'DejaVu Sans','Segoe UI',Arial,sans-serif" font-size="18" fill="#333333">Linux</text>
+
+  <!-- satir 3 -->
+  <text x="190" y="348" font-family="'DejaVu Sans','Segoe UI',Arial,sans-serif" font-size="18" fill="#5A6B82">Version</text>
+  <rect x="520" y="316" width="560" height="50" rx="10" fill="#F8FAFC" stroke="#DCE6F2" stroke-width="2"/>
+  <text x="544" y="348" font-family="'DejaVu Sans','Segoe UI',Arial,sans-serif" font-size="18" fill="#333333">Ubuntu (64-bit)</text>
+
+  <!-- satir 4 -->
+  <text x="190" y="416" font-family="'DejaVu Sans','Segoe UI',Arial,sans-serif" font-size="18" fill="#5A6B82">Memory size</text>
+  <rect x="520" y="384" width="560" height="50" rx="10" fill="#F8FAFC" stroke="#DCE6F2" stroke-width="2"/>
+  <text x="544" y="416" font-family="'DejaVu Sans','Segoe UI',Arial,sans-serif" font-size="18" fill="#333333">4096 MB</text>
+
+  <!-- satir 5 -->
+  <text x="190" y="484" font-family="'DejaVu Sans','Segoe UI',Arial,sans-serif" font-size="18" fill="#5A6B82">Hard disk size</text>
+  <rect x="520" y="452" width="560" height="50" rx="10" fill="#F8FAFC" stroke="#DCE6F2" stroke-width="2"/>
+  <text x="544" y="484" font-family="'DejaVu Sans','Segoe UI',Arial,sans-serif" font-size="18" fill="#333333">25,00 GB</text>
+
+  <!-- dugmeler -->
+  <rect x="820" y="560" width="150" height="48" rx="10" fill="#ECEFF4" stroke="#DCE6F2" stroke-width="2"/>
+  <text x="895" y="590" text-anchor="middle" font-family="'DejaVu Sans','Segoe UI',Arial,sans-serif" font-size="18" fill="#333333">Cancel</text>
+  <rect x="990" y="560" width="120" height="48" rx="10" fill="#7FB3D5"/>
+  <text x="1050" y="590" text-anchor="middle" font-family="'DejaVu Sans','Segoe UI',Arial,sans-serif" font-size="18" fill="#FFFFFF">Next</text>
+</svg>
