@@ -65,6 +65,7 @@ Aşağıdaki adımları kendi bilgisayarınızda sanal makine ile uygulayın:
 5. **Başlatın.** Sanal makineyi başlatın. Live USB / Live DVD seçeneği görünecektir; "Linux Mint'i başlat" seçeneğini seçin.
 
 ![Linux kurulum ekranı](../Assets/01-Linux-Install.jpg)
+![Linux kurulum ekranı](../Assets/01-Linux-Everywhere.svg)
 
 6. **Deneme veya kurulum.** Masaüstünde "Install Linux Mint" simgesine tıklayın. Dil seçimi, klavye düzeni ve disk yapılandırması ekranlarını takip edin. Disk yapılandırmasında "Diski silip Linux Mint'i yükle" seçeneğini seçebilirsiniz (bu sadece sanal makine içindir; gerçek diskiniz silinmez).
 7. **Kullanıcı bilgilerini girin.** Adınızı, bilgisayar adınızı, kullanıcı adınızı ve parolanızı belirleyin.
